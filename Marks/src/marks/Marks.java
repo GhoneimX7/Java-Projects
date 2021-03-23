@@ -67,7 +67,8 @@ public class Marks {
     }
 
     public double getGPA() {
-        return (oop + db + arc + net + stat + sa)/6;
+        GPA = (oop + db + arc + net + stat + sa)/6;
+        return GPA;
     }
 
     @Override
