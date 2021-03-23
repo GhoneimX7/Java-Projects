@@ -72,7 +72,7 @@ public class Marks {
 
     @Override
     public String toString() {
-        return "Marks{" + "oop=" + oop + ", db=" + db + ", arc=" + arc + ", net=" + net + ", stat=" + stat + ", sa=" + sa + ", GPA=" + GPA + '}';
+        return "Marks{" + "oop=" + oop + ", db=" + db + ", arc=" + arc + ", net=" + net + ", stat=" + stat + ", sa=" + sa + ", GPA=" + getGPA + '}';
     }
     
 
