@@ -1,27 +1,34 @@
 package linkedlist;
 
+//public class LinkedList {
 public class LinkedList<T> {
 
     Node head;
     int size = 0;
-
+    
+    //private class Node<T> {
     private class Node<T> {
 
         T value;
+        //int value;   //For integers Linked List.
         Node next;
-
+        
+        //public Node(int value){
         public Node(T value) {
             this.value = value;
             this.next = null;
         }
 
     }
-
+    
+    //public LinkedList(int data) {
     public LinkedList(T data) {
         this.head = new Node(data);
         size++;
     }
 
+    
+    //public void insert(int data) {
     public void insert(T data) {
         Node last = head;
 
